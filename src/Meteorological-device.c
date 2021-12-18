@@ -17,9 +17,6 @@
 
 #define BME_ADDR	0x76
 
-#define BYTE_REVERSL_16(a) ((((a)>>8)&0xff)|(((a)<<8)&0xff00))
-// #define be24toword(a) ((((a)>>16)&0x000000ff)|((a)&0x0000ff00)|(((a)<<16)&0x00ff0000))
-
 
 uint8_t itca (char *buff, uint32_t number);
 
